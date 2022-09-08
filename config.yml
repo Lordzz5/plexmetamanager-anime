@@ -56,7 +56,7 @@ webhooks:
   version:
 plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
   url: http://xxxxxxx:32400
-  token: wqb3XHBdH_h-tLjTCnns
+  token: ###################
   timeout: 60
   clean_bundles: false
   empty_trash: false
