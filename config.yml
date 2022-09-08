@@ -55,7 +55,7 @@ webhooks:
   changes: notifiarr
   version:
 plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://orkenstein.com:32400
+  url: http://xxxxxxx:32400
   token: wqb3XHBdH_h-tLjTCnns
   timeout: 60
   clean_bundles: false
@@ -113,13 +113,13 @@ anidb: # Not required for AniDB builders unless you want mature content
   password:
   language: en
 mal: # REQUIRED for this config to work - set up by following https://metamanager.wiki/en/latest/config/myanimelist.html
-  client_id: 6587c3eec1a3a501154af0adc6f78538
-  client_secret: 9bcbe9af6193ed051fff933c081e9b5669498db72ba83ba5af1b4c1d52d83269
+  client_id: ################################
+  client_secret: ################################
   authorization:
-    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImY3M2IzZTRhN2FlOTI3MzgwOGMyM2JkNzBjMGQzOTBkMzRjMmNkZjRlOTkyZjJiNTUyY2VkM2EwMzNjMmY1NGIwYzUwMWFhNWIzN2YxYjAzIn0.eyJhdWQiOiI2NTg3YzNlZWMxYTNhNTAxMTU0YWYwYWRjNmY3ODUzOCIsImp0aSI6ImY3M2IzZTRhN2FlOTI3MzgwOGMyM2JkNzBjMGQzOTBkMzRjMmNkZjRlOTkyZjJiNTUyY2VkM2EwMzNjMmY1NGIwYzUwMWFhNWIzN2YxYjAzIiwiaWF0IjoxNjYwNDUzMjA3LCJuYmYiOjE2NjA0NTMyMDcsImV4cCI6MTY2MzEzMTYwNywic3ViIjoiMTUzMTY4NjIiLCJzY29wZXMiOltdfQ.Z5JEDuIgFZtd5e6SaSeoFOttnulocQ14OTWoe0mP9oHasyXvMRH_UX4e7ZyJtaVyKYFaMg-KMMQe8t-P3LK5DlKSiV8ZArl5ijumZ8en-VeDchfgTa7uOMtZzPH5WrIrIgvDTdUlxqeTJAZ9yGKZlYF6FfYtxCN3q2GfmSI0z4Vty-AR4JWeQlCvmU68vJAn0xNMqQMHGAQs25W7CZqmz_CLp2qXE3nUtZV4IXLkWXFVE7CirO6Fi4a243J4C9urVU1C3di1T8sr2J6V0JWF72JzSkb87p45b-u7QtsPj2ICcPDDGa8sgpwkRVdzqzqK2_4N-z76T1UuCNSgXRewEg
+    access_token: ################################
     token_type: Bearer
     expires_in: 2678400
-    refresh_token: def502004e8b010a1d955231941e654c3bd4eacc18f44dcfa99b6237dc36cbd91297907e1677517f2a4b1e4cf8108c91360bb46f6df04c9425fdba17d831893f05f0510ea696c38e7a09b654d34e1612c1b0f08382e7dd9c274f2ea703bcf9aef37ee25924e1223f292d2b3d9246ac9719a247567a96a91faa7f7fff89897b8f79bf81607b87f5ab8e6ab375bcc0d4c9fcbda1697aa107d456128762b1d66dcb0888e9c0f6061d8eb3441e50b5b9934ad34af37309b4f666908ecff18138968aaa041991196d2ebdbccaa8dd0d441582d1cb05d6a07700816eaa1e30b7e83e35c6167761483bb9d08a86478e2140217d42f2fb905d20c52b64323d5112277292c91313346f5153c3fcba322d9040a904d3267cc613a4aa2ee13c6bbf5cd491a8441e9ad151294b15d5924f903edd2a8c9304e0b49a9fa944aa6bf24f381594c81ea7fd6e52e9ed9fe4d2d5db58d1666c0381c66d6c6b73ea0c700797b0f650360c6021afec269c42f0fec28c81fa7bfd4977b5454554d8ef20d70e6a5f3a76b8ab667bcc7b67ae6423
+    refresh_token: ################################
   localhost_url:
 trakt:
   client_id:
